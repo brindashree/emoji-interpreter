@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+.App {
+  font-family: "Russo One", sans-serif;
+  max-width: 800px;
+  letter-spacing: 2px;
+  margin: auto;
+  margin-top: -35px;
+  text-align: center;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+#header {
+  color: white;
+  padding: 1.5rem;
+  font-size: 3rem;
+}
+#meaning {
+  color: #c4b5fd;
+  font-size: 1.1rem;
+}
+#emoji {
+  font-size: 2rem;
+  margin: 5px;
+}
+
+#input {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  width: 90%;
+  height: 10vh;
+  border-radius: 1.5rem;
+}
+
+#output {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 90%;
+  font-size: 18px;
+  padding: 0.8rem;
+  height: 10vh;
+  border-radius: 1.5rem;
+  text-align: center;
+  background-color: #fde68a;
+}
+#tagline {
+  color: aqua;
+  font-size: 1.5rem;
+}
+#footer {
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+}
